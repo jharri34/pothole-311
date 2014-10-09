@@ -1,11 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>peace-m</name>
+    <name>Pothole-311</name>
     <description>
-	Will provide health information specific to pregnancy and prenatal care. Provide knowledge to evaluate treatment options and make informed treatment decisions for the birth of a healthy baby and a healthier expecting mother.
+	
     </description>
     <author email="jharri34@uab.edu" href="peace-m.org">
         SEaP -Jamall Harris
+    </author>
+    <author email="line72@line72.net" href="line72.net">
+        Vipar -Mark Dillavou
     </author>
     <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="permissions" value="none" />
