@@ -10,7 +10,7 @@
  * -
  *
  */
-angular.module('peace-m.controllers')
+angular.module('pothole-311.controllers')
     .controller('DashboardCtrl', ['$scope',
         function ($scope) {
         }]);

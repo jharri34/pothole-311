@@ -26,35 +26,29 @@
         <link rel="stylesheet" href="css/index.css"/>
     </head>
     <body>
-        <div ng-app="peace-m">
+        <div ng-app="pothole-311">
                 <ng-view autoscroll="true"></ng-view>
         </div>
 
         <!-- Libs -->
+        <script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
         <script type="text/javascript" src="lib/angular/angular.min.js"></script>
         <script type="text/javascript" src="lib/angular-route/angular-route.min.js"></script>
         
+        
         <!-- App -->
         <script type="text/javascript" src="js/app.js"></script>
-        <!-- Controllers -->
-        <script type="text/javascript" src="js/controllers/DashboardCtrl.js"></script>
-        <script type="text/javascript" src="js/controllers/GuidelineCtrl.js"></script>
-        <script type="text/javascript" src="js/controllers/PageCtrl.js"></script>
-        <!-- Components -->
-        <script type="text/javascript" src="js/components/DataFactory.js"></script>
-        <script type="text/javascript" src="js/components/FetchDashboard.js"></script>
-        <script type="text/javascript" src="js/components/FetchLearn.js"></script>
-        <script type="text/javascript" src="js/components/FetchGuidelines.js"></script>
-        <script type="text/javascript" src="js/components/HtmlFilter.js"></script>
-        
         <!-- Router -->
         <script type="text/javascript" src="js/router.js"></script>
+        <!-- Controllers -->
+        <script type="text/javascript" src="js/controllers/DashboardCtrl.js"></script>
+        <!-- Components -->
         <!-- Directives -->
         <script type="text/javascript" src="js/directives/Navigation.js"></script>
-        <script type="text/javascript" src="js/directives/DefaultSrc.js"></script>
-        <script type="text/javascript" src="js/directives/BackButton.js"></script>
+        <script type="text/javascript" src="js/directives/backImg.js"></script>
+        
         <!-- other        -->
-        <script type="text/javascript" src="phonegap.js"></script>
+<!--        <script type="text/javascript" src="phonegap.js"></script>-->
         
     </body>
 </html>

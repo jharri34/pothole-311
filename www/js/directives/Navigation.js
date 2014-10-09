@@ -7,7 +7,7 @@
 * - 
 * 
 */
-angular.module('peace-m.directives').
+angular.module('pothole-311.directives').
 directive('navigation', function() {
   return {
       restrict: 'E',
