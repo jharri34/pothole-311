@@ -2,7 +2,7 @@
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Pothole-311</name>
     <description>
-	
+	Written for redemtive cycles by Code for Birmingham
     </description>
     <author email="jharri34@uab.edu" href="peace-m.org">
         SEaP -Jamall Harris
@@ -10,7 +10,7 @@
     <author email="line72@line72.net" href="line72.net">
         Vipar -Mark Dillavou
     </author>
-    <feature name="http://api.phonegap.com/1.0/device" />
+    <feature name="Pothole-311" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
