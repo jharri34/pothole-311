@@ -1,0 +1,23 @@
+<navigation>Peace-M</navigation>
+<snap-drawer>
+    <div class="list-group">
+        <a href="#{{location}}" class="list-group-item" ng-repeat="section in guideline.sections " ng-click="toggleSelected(section.ID)"> {{section.sectionterm}} </a>
+    </div>
+</snap-drawer>
+
+<snap-content>
+    <div class="list-group">
+        <div class="list-group-item" ng-show="!current_view">
+            <h3>{{guideline.post_title}}</h3>
+            <div ng-bind-html="guideline.post_content|to_trusted"></div>
+            <videogular vg-theme="config.theme.url">
+                <vg-video vg-src="config.sources" vg-native-controls="true"></vg-video>
+            </videogular>
+        </div>
+        <div ng-repeat="section in guideline.sections " class="list-group-item" ng-show="current_view == section.ID">
+            <h3 id="{{section.sectionterm}}">{{section.sectionterm}}</h3>
+            <div ng-bind-html="section.sectiontext|to_trusted"></div>
+        </div>
+    </div>
+</snap-content>
+

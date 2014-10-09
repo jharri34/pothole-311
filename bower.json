@@ -1,0 +1,9 @@
+{
+  "name": "peace-m",
+  "version": "0.0.1",
+  "dependencies": {
+	      "angular" : "latest",
+	      "angular-route": "latest",
+	      "bootstrap": "latest"
+  }
+}
